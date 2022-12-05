@@ -20,7 +20,7 @@ class Color:
     miss = '\033[0;37m'
 
 
-# функция, которая окрашивает текст в заданный цвет.
+# Функция, которая окрашивает текст в заданный цвет.
 def set_color(text, color):
     return color + text + Color.reset
 
